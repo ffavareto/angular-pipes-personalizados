@@ -1,0 +1,27 @@
+h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  gap: 32px;
+}
+
+form, form div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+form div {
+  align-items: flex-start;
+  flex: 1;
+  gap: 4px;
+  flex-direction: column;
+}
+
+form div app-input {
+  width: 100%;
+}

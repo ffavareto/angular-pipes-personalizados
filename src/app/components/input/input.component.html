@@ -1,0 +1,8 @@
+<input
+  #input
+  [placeholder]="properties.placeholder"
+  [name]="properties.name"
+  [type]="properties.type"
+  [attr.maxlength]="properties.maxlength"
+  (keyup)="changeValue(properties.name, input)"
+>

@@ -1,0 +1,17 @@
+<h2>Pipes</h2>
+<form>
+  <div>
+    <app-input
+      [properties]="cpfInputProperties"
+      (onValueChange)="setValue($event)"
+    ></app-input>
+    <p>CPF: {{ cpf | CPF }}</p>
+  </div>
+  <div>
+    <app-input
+      [properties]="cellPhoneInputProperties"
+      (onValueChange)="setValue($event)"
+    ></app-input>
+    <p>Celular: {{ cellphone | cellPhone }}</p>
+  </div>
+</form>
